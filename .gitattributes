@@ -1,0 +1,13 @@
+# Detectar automáticamente archivos de texto
+* text=auto
+
+# Código y configuración con finales de línea LF
+*.java text eol=lf
+*.xml text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Scripts según su plataforma
+mvnw text eol=lf
+*.cmd text eol=crlf
